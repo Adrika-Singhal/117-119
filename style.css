@@ -1,0 +1,45 @@
+#timer{
+    float:right;
+    margin-right: 20px;
+}
+#score{
+    margin-left: 20px;
+    float:left;
+}
+#show_sketch{
+    float:right;
+}
+
+#sketch{
+    color:green
+}
+#confidence{
+    color:teal
+}
+body{
+    background-color: thistle;
+    text-align: center;
+}
+#draw{
+    color:rgb(68, 113, 114);
+    background-color:lightsteelblue;
+}
+canvas
+{
+    border: 5px solid rgb(176, 221, 249);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(53, 99, 0);}
+    to {box-shadow: 1px 1px 38px rgb(237, 250, 197);}
+}
+
+p{
+    padding-top: 10px;
+    font-size:25px;
+}
